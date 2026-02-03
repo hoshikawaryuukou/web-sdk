@@ -6,8 +6,8 @@
 	"scripts": {
 		"format": "prettier --write --ignore-path=../../.prettierignore .",
 		"lint": "eslint \"src\"",
-		"storybook": "cross-env PUBLIC_CHROMATIC=true storybook dev -p 6001 public",
-		"dev": "vite dev --host --port 3001",
+		"storybook": "cross-env PUBLIC_CHROMATIC=true storybook dev -p 6002 public",
+		"dev": "vite dev --host --port 3002",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
